@@ -5,12 +5,13 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import Service from "./Service";
+import Menu from "./Menu";
 // import Error from "./Error";
 
 function App() {
   return (
    <>
-   
+   <Menu/>
    <Switch>
         <Route exact path="/" component={Home}></Route>
         <Route path="/About" component={About}></Route>
